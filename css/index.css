@@ -1,0 +1,80 @@
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: comic Sans Ms;
+}
+
+.topper{
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	height: 20%;
+	width: 100%;
+	background-color: #333;	
+	box-shadow: 30px 10px red;
+}
+
+.topper > div {
+	margin: auto auto;
+	font-size: 40px;		
+	color: ghostwhite;
+	box-shadow: 5px 10px red;
+}
+
+.container{
+	background-color: #eee;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.child{
+	background-radius:20px;
+	border-radius: 20px;
+	width: 400px;
+	height: 80%;
+	background-color: #555;
+	margin: auto auto;
+	box-shadow: -5px -5px 25px grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.child > ul{
+	list-style: none;	
+	padding: 0px;	
+	width: 70%;	
+}
+
+.child > ul > li > a{
+	text-decoration: none;	
+	color: #555;		
+}
+
+.child > ul > li > a:click{
+	text-decoration: none;	
+	color: white
+}
+
+.child > ul > li:nth-child(even){
+	height: 20px;	
+}
+
+.child > ul > li:nth-child(odd){	
+	margin: 10px 0;
+	background-color: #efe;
+	font-size: 30px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	border-radius: 100px;
+	cursor: pointer;
+
+}
+
+.child > ul > li:nth-child(odd):hover{	
+	transition: 0.2s;
+	box-shadow: -5px -5px 20px ghostwhite;
+}
